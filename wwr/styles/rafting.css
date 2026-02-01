@@ -35,6 +35,11 @@ h2 {
     color: var(--primary-color);
 }
 
+.logo {
+    height: 56px;
+    width: auto;
+}
+
 nav,
 p,
 section,
