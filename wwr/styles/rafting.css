@@ -23,7 +23,7 @@ header {
     align-items: center;
     gap: 1rem;
     padding: 1rem 2rem;
-    background-color: linear-gradient(90geg, #0b5b8a, #087c9f);
+    background: linear-gradient(90geg, #0b5b8a, #087c9f);
     color: #fff;
 }
 
@@ -89,7 +89,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background: var(--accent1-color);
     color: var(--accent2-color);
 }
 
@@ -98,7 +98,7 @@ h1 {
     top: 30%;
     left: 48%;
     transform: translateX(-50%);
-    background-color: var(--accent2-color);
+    background: var(--accent2-color);
     padding: 0.75rem;
     width: 95%;
     max-width: 1100px;
@@ -156,7 +156,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #072e3a;
+    background: #072e3a;
     color: #d8f0f2;
     margin-top: 40px;
 }
