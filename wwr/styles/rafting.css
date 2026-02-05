@@ -23,7 +23,7 @@ header {
     align-items: center;
     gap: 1rem;
     padding: 1rem 2rem;
-    background: linear-gradient(90geg, #0b5b8a, #087c9f);
+    background: linear-gradient(90geg, var(--primary-color), #087c9f);
     color: #fff;
 }
 
@@ -56,6 +56,7 @@ footer {
 
 h1,
 h2 {
+    font-family: var(--heading-font);
     color: var(--heading-font);
 }
 
