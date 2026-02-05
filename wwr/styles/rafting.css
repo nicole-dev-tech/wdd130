@@ -14,7 +14,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: #fff;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     align-items: center;
     gap: 1rem;
     padding: 1rem 2rem;
-    background: linear-gradient(90geg, var(--primary-color), #087c9f);
+    background: linear-gradient(var(--primary-color), #089f83);
     color: #fff;
 }
 
@@ -43,7 +43,7 @@ header nav {
 
 header nav a {
     margin-left: 20px;
-    color: var(--accent2-color);
+    color: #fff;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--heading-font);
+    color: var(--heading-font), #055a05;
 }
 
 figcaption {
@@ -107,7 +107,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background: var(--accent1-color);
-    color: var(--accent2-color);
+    color: #fffffffa
 }
 
 .hero article {
@@ -115,7 +115,7 @@ h1 {
     top: 30%;
     left: 48%;
     transform: translateX(-50%);
-    background: var(--accent2-color);
+    background: #ffffff00;
     padding: 0.75rem;
     width: 95%;
     max-width: 1100px;
@@ -128,7 +128,7 @@ h1 {
 }
 
 h2 {
-    position: relative;
+    position: right;
     text-align: center;
     bottom: 15px;
 }
@@ -142,7 +142,7 @@ h2 {
 }
 
 .history-grid {
-    display: block;
+    display: flex;
     place-items: center;
 }
 
@@ -156,8 +156,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #072e3a;
-    color: #d8f0f2;
+    background: #072e3ae0;
+    color: #d8d8f2;
     margin-top: 40px;
 }
 
