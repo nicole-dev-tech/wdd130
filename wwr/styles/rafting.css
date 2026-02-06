@@ -15,6 +15,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: #f4f4f4;
 }
 
 .site-header {
@@ -40,12 +41,10 @@ header img {
 .nav ul {
     display: flex;
     list-style: none;
-    justify-content: center;
     gap: 1.5rem;
 }
 
 .nav a {
-    margin-left: 20px;
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
@@ -74,7 +73,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: white;
-    background-color: #3e426d;
+    background-color: var(--accent2-color);
     text-align: center;
 }
 
@@ -92,11 +91,11 @@ article {
 
 .hero {
     position: relative;
-    background-color: rgb(244, 244, 244);
 }
 
 .hero img {
     width: 100%;
+    display: block;
 }
 
 .hero h1 {
@@ -105,7 +104,7 @@ article {
     width: 100%;
     padding: 20px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.85;
 }
 
 .hero article {
@@ -113,7 +112,7 @@ article {
     bottom: 20px;
     left: 20px;
     color: white;
-    background-color: rgba(38, 70, 83, 0.674);
+    background-color: rgba(0, 128, 128, 0.662);
     padding: 1rem;
     max-width: 780px;
 
@@ -199,20 +198,6 @@ figure {
 
 .socialmedia img {
     width: 100px;
-}
-
-footer .grid {
-    gap: 8px;
-}
-
-footer p {
-    font-size: 1.2em;
-}
-
-footer .sociallinks {
-    display: flex;
-    gap: 20px;
-    align-items: flex-end;
 }
 
 footer .sociallinks img {
