@@ -19,12 +19,18 @@ body {
 }
 
 .site-header {
-    display: flex;
-    grid-template-columns: 150px 1fr;
+    display: grid;
+    grid-template-columns: 150px auto;
     align-items: center;
     background-color: white;
     color: var(--accent2-color);
     border-bottom: 1px solid #ccc;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .logo {
@@ -48,17 +54,6 @@ header img {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
-}
-
-header,
-main,
-nav {
-    justify-content: center;
-}
-
-body {
-    font-family: var(--body-font);
-    color: rgba(0, 0, 255, 0.901);
 }
 
 header,
@@ -185,7 +180,7 @@ figure {
 
 .site-footer {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 3fr 1fr;
     align-items: center;
     padding: 1rem;
     background-color: white
@@ -196,14 +191,8 @@ figure {
     gap: 1rem;
 }
 
-.socialmedia img {
-    width: 100px;
-}
-
-footer .sociallinks img {
+footer .socialmedia img {
     width: 30px;
-    height: 30px;
+    height: auto;
     align-items: flex-end;
-    display: block;
-    filter: brightness(1.2);
 }
