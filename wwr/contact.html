@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Learning about our Rafting Company with passion for unforgattable river adventures.">
+    <meta name="author" content="Nicole Makayi">
+    <title>About Us | Rafting Company</title>
+</head>
+
+<!--BODY-HEADER-->
+
+<body>
+
+    <header class="site-header">
+        <img src="images/rapid-logo.jpg" alt="Rafting company 
+                logo">
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--CONTACT INFO-->
+        <selection class="contact-info">
+            <h1>White Water Rafting Company</h1>
+            <p>13 Korhaan Street</p>
+            <p>Bluedowns, Capetown, South Africa</p>
+            <p>+27 678 618 310</p>
+            <p>info@whitewater.com</p>
+        </selection>
+
+        <!--CONTACT LAYOUT-->
+        <section class="contact-layout">
+
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3428.452377927503!2d18.708893207348385!3d-34.0195401060915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1770506631684!5m2!1sen!2sza"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
+            </div>
+
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general">
+                        General Inqury
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <label class="checkbox" name="subscribe">
+                    Please subscribe to the monthly newsletter.
+                </label>
+            </form>
+            <button type="submit">Get in Touch!</button>
+
+        </section>
+
+        <!--EMPLOYEES-->
+        <section class="employeers">
+            <h2>We Are Here to Serve You!</h2>
+            <div class="employeers">
+
+                <figure>
+                    <img src="images/lead.jpg" alt="River Guide">
+                    <figcaption>Sarah - Lead River Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/safety.jpg" alt="Safety Officer">
+                    <figcaption>Mike - Safety Officer</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/manager.jpg" alt="Reservations Manager">
+                    <figcaption>John - Reservations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Rafting Company Name | Nicole Makayi</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.jpeg" alt="Facebook" width="100" height="100"></a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-icon.jpeg" alt="linkedin" width="100" height="100"></a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-icon.jpeg" alt="Instagram" width="100" height="100"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
