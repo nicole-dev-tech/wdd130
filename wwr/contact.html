@@ -42,7 +42,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3428.452377927503!2d18.708893207348385!3d-34.0195401060915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1770506631684!5m2!1sen!2sza"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade">
 
                 </iframe>
@@ -57,16 +57,16 @@
 
                 <fieldset>
                     <legend>Message Purpose</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general">
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general">
                         General Inqury
                     </label>
                     <label>
-                        <input type="radio" name="purpose" value="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
                         Reservation Question
                     </label>
                     <label>
-                        <input type="radio" name="purpose" value="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
                         Website suggestion
                     </label>
                 </fieldset>
@@ -74,35 +74,34 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="4"></textarea>
 
-                <label class="checkbox" name="subscribe">
+                <label class="checkbox" id="subscribe" name="subscribe">
                     Please subscribe to the monthly newsletter.
                 </label>
-            </form>
-            <button type="submit">Get in Touch!</button>
 
+                <button type="submit">Get in Touch!</button>
+            </form>
         </section>
 
         <!--EMPLOYEES-->
         <section class="employeers">
             <h2>We Are Here to Serve You!</h2>
-            <div class="employeers">
 
-                <figure>
-                    <img src="images/lead.jpg" alt="River Guide">
-                    <figcaption>Sarah - Lead River Guide</figcaption>
-                </figure>
+            <figure>
+                <img src="images/lead.jpg" alt="River Guide">
+                <figcaption>Sarah - Lead River Guide</figcaption>
+            </figure>
 
-                <figure>
-                    <img src="images/safety.jpg" alt="Safety Officer">
-                    <figcaption>Mike - Safety Officer</figcaption>
-                </figure>
+            <figure>
+                <img src="images/safety.jpg" alt="Safety Officer">
+                <figcaption>Mike - Safety Officer</figcaption>
+            </figure>
 
-                <figure>
-                    <img src="images/manager.jpg" alt="Reservations Manager">
-                    <figcaption>John - Reservations Manager</figcaption>
-                </figure>
-            </div>
+            <figure>
+                <img src="images/manager.jpg" alt="Reservations Manager">
+                <figcaption>John - Reservations Manager</figcaption>
+            </figure>
         </section>
+
     </main>
 
     <footer class="site-footer">

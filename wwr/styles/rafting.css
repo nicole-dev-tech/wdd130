@@ -224,19 +224,18 @@ footer .socialmedia img {
 .contact-form textarea {
     padding: 0.5rem;
     color: white;
-    padding: 0.75rem;
     border: none;
     cursor: pointer;
     font-size: 1rem;
 }
 
 button {
-    background-color: gray;
+    background-color: var(--accent1-color);
 
 }
 
 button:hover {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 .employees figure img {
