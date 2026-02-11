@@ -230,12 +230,12 @@ footer .socialmedia img {
 }
 
 button {
-    background-color: var(--accent1-color);
+    background-color: grey;
 
 }
 
 button:hover {
-    background-color: var(--accent2-color);
+    background-color: white;
 }
 
 .employees figure img {
