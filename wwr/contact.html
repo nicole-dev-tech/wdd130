@@ -19,7 +19,7 @@
         <nav class="main-nav" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -57,30 +57,35 @@
 
                 <fieldset>
                     <legend>Message Purpose</legend>
+
                     <label for="general">
                         <input type="radio" id="general inquiry" name="purpose" value="general">
                         General Inqury
                     </label>
+
                     <label>
                         <input type="radio" id="reservation questions" name="purpose"
                           value="reservation">
                         Reservation Question
                     </label>
+
                     <label>
                         <input type="radio" id="website suggestion" name="purpose"
                           value="suggestion">
                         Website suggestion
                     </label>
+
                 </fieldset>
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="4"></textarea>
 
-                <label class="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe" class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
                     Please subscribe to the monthly newsletter.
                 </label>
 
-                <button type="submit">Submit</button>
+                <button type="submit">Send Message</button>
             </form>
         </section>
 
