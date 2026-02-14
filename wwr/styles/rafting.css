@@ -232,6 +232,10 @@ footer .socialmedia img {
 
 .contact-layout {
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
 }
 
 button {
@@ -245,6 +249,7 @@ button:hover {
 }
 
 .employees figure img {
+    display: inline-block;
     width: 150px;
     align-items: center;
 
